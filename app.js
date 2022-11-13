@@ -1,7 +1,7 @@
 const express = require('express')
 
 const app = express();
-const { faker } = require('@faker-js/faker');
+const { faker } = require('@faker-js/faker/locale/ru');
 
 function createRandomUser() {
   let User = [];
